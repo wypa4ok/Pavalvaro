@@ -1,0 +1,38 @@
+/*comment */
+
+h3{
+	color:blue;
+}
+
+p{
+	font-family:Tahoma;
+	font-size:2em;
+	color:#e9967a;
+}
+
+/*classes use a dot */
+
+.standOut{
+color:red;
+font-family: Verdana;
+font-weight: bold;
+
+}
+.leftLogo	{width:200px; 
+		 color: #000;
+		 display:table-cell;
+		}
+.rightLogo	{width:600px; 
+		 color: #000;
+		 display:table-cell;
+		}
+
+img{
+	/*height: 200px;
+	width: 200px;
+	*/
+}
+
+tbody tr:nth-child(odd){
+backgroun:#d8bfd8;
+}

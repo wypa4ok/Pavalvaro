@@ -1,0 +1,113 @@
+body{
+   background: url("../images/background3.jpg");
+   fixed center no-repeat;
+   background-size: 100%;
+   margin-left: 70px;
+   margin-right: 70px;
+   padding:0;
+}
+
+#menu, #menu ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#menu:before,
+#menu:after {
+content: "";
+display: table;
+}
+
+#menu:after {
+clear: both;
+}
+
+
+#menu {
+width 960px;
+margin: 10px auto;
+border: 1px solid #222;
+background-color: #111;
+background-image: linear-gradient(#444, #111);
+border-radius: 6px;
+box-shadow: 0 1px 1px #777;
+}
+
+#menu li {
+float: left;
+border-right: 1px solid #222;
+box-shadow: 1px 0 0 #444;
+position: relative;
+}
+
+#menu a {
+float:left;
+padding: 12px 30px;
+color: #999;
+text-transform: uppercase;
+font: bold 12px Arial, Helvetica;
+text-decoration: none;
+text-shadow: 0 1px 0 #000;
+}
+
+#menu li a:hover{
+color: #fafafa;
+}
+
+
+.css-slideshow{
+   position: relative;
+   max-width: 495px;
+   height: 470px;
+   display: block;
+   float: left;
+}
+.css-slideshow figure{
+   margin: 0;
+   position: absolute;
+   border: solid black 2px;
+}
+
+.css-slideshow figure{
+   opacity:0;
+}
+
+
+figure:nth-child(1) {
+   animation: xfade 60s 50s infinite;
+}
+figure:nth-child(2) {
+   animation: xfade 60s 40s infinite;
+}
+figure:nth-child(3) {
+   animation: xfade 60s 30s infinite;
+}
+figure:nth-child(4) {
+   animation: xfade 60s 20s infinite;
+}
+figure:nth-child(5) {
+   animation: xfade 60s 10s infinite;
+}
+figure:nth-child(6) {
+   animation: xfade 60s 0s infinite;
+}
+
+
+@keyframes xfade{
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    8% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+
+
+#prod_list{
+margin-left: 20px;
+}
+
+
+
+

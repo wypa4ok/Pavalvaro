@@ -1,0 +1,42 @@
+html{
+			width:100%;
+			font-size:62.5%;
+		}
+		::-moz-selection{
+			background:#F78385;
+			color:#ffffff;
+		}
+		::selection{
+			background:#F78385;
+			color:#ffffff;
+		}
+		body{
+			background-color:#ffffff;
+			margin:0;
+			padding:0;
+		}
+		.ReadMsgBody{
+			width:100%;
+			background-color:#f7f7f7;
+		}
+		.ExternalClass{
+			width:100%;
+			background-color:#f7f7f7;
+		}
+		a{
+			color:#0033CC;
+			text-decoration:none;
+			font-weight:normal;
+			font-style:normal;
+		}
+		a:hover{
+			color:#262626;
+			text-decoration:none;
+			font-weight:normal;
+			font-style:normal;
+		}
+	@font-face {font-family: unisanssemibold;src: url(uni_sans_semi_bold.otf);}
+	@font-face {font-family: catalog;src: url(catalog_regular.otf);}
+		table{
+			border-collapse:collapse;
+		}
